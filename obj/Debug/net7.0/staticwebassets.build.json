@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ekfpNcDT/XFRzGvl4U7d3DuXFYLi9zvgbdfHrqocuGs=",
+  "Source": "DolphinTodoWebAPI",
+  "BasePath": "_content/DolphinTodoWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
