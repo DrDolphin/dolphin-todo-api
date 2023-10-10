@@ -14,6 +14,8 @@ namespace DolphinTodoWebAPI
         {
             services.AddDbContext<AppDbContext>(options =>
                 options.UseNpgsql(_configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<ITodoItemService, TodoItemService>();
+            services.AddScoped<ITodoItemRepository, TodoItemRepository>();
         }
     }
 }
