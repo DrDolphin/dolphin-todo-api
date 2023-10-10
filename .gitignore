@@ -1,2 +1,7 @@
 *.code-workspace
 .vscode/settings.json
+
+bin/*
+obj/*
+
+Migrations/*
